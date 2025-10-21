@@ -8,13 +8,13 @@ import {
   ArrowLeftOnRectangleIcon,
   AdjustmentsHorizontalIcon
 } from '@heroicons/react/24/outline';
-import Dashboard from './components/Dashboard.js';
-import PermissionPanel from './components/PermissionPanel.js';
-import Reports from './components/Reports.js';
-import Login from './pages/Login.js';
-import DuesPage from './pages/DuesPage.js';
-import PaymentsPage from './pages/PaymentsPage.js';
-import Settings from './pages/Settings.js';
+import Dashboard from './components/Dashboard.jsx';
+import PermissionPanel from './components/PermissionPanel.jsx';
+import Reports from './components/Reports.jsx';
+import Login from './pages/Login.jsx';
+import DuesPage from './pages/DuesPage.jsx';
+import PaymentsPage from './pages/PaymentsPage.jsx';
+import Settings from './pages/Settings.jsx';
 
 const navItems = [
   { name: 'Dashboard', path: '/dashboard', icon: ChartBarIcon },

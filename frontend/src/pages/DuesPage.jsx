@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
-import Filters from '../components/Filters.js';
-import FeeTable from '../components/FeeTable.js';
+import Filters from '../components/Filters.jsx';
+import FeeTable from '../components/FeeTable.jsx';
 import { useStudents } from '../services/api.js';
 
 const DuesPage = () => {
